@@ -15,7 +15,7 @@ main {
     margin: 0 auto;
 }
 
-/* players section  */
+/* players style */
 .section-title {
     color: tomato;
     margin: 30px 0;
@@ -37,4 +37,22 @@ main {
 .player-img img {
     width: 56px;
     height: 56px;
+}
+
+/* blog style */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.blog {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.blog-img img {
+    width: 200px;
+    height: 120px;
 }
