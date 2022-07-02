@@ -91,3 +91,41 @@ h3 {
 .watch {
     color: tomato;
 }
+
+/* media query */
+@media only screen and (max-width:668px) {
+    main {
+        width: 100%;
+    }
+
+    .players-container,
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player-container,
+    .blog,
+    .course {
+        flex-direction: column;
+    }
+}
+
+/* tablet responsive */
+@media only screen and (min-width:669px) and (max-width:992px) {
+    main {
+        width: 100%;
+    }
+
+    .players-container,
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .player-container,
+    .blog,
+    .course {
+        flex-direction: column;
+    }
+}
