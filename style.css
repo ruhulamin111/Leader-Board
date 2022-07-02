@@ -61,7 +61,7 @@ main {
 /* courses style  */
 .courses {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 50px;
 }
 
@@ -78,6 +78,8 @@ h3 {
 
 .ratings {
     display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
 }
 
 .fa-star.color,
@@ -85,11 +87,7 @@ h3 {
     color: salmon;
 }
 
-.watch {
-    margin-left: 50px;
-}
-
 .fa-clock.color,
 .watch {
-    color: red;
+    color: tomato;
 }
